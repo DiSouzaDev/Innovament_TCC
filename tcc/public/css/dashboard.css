@@ -1,0 +1,35 @@
+:root {
+  --primary: #e7295d;
+  --primary-hover: #d71549;
+  --secondary: #0080ff;
+  --secondary-hover: #046ad0;
+  --text: #f8f8f8;
+  --text-dark: #2D2E30;
+  --gray: #d8d7d7;
+  --black: #333333;
+  --background-page: #242424;
+  --alternate-black: #141c2c;
+  --white: #fff;
+  --white-50: #f8f9fa;
+  --primary-50: rgba(245, 10, 69, 0.1607843137);
+  --secondary-50: rgba(0, 128, 255, 0.2666666667);
+  --black-20: rgba(64, 64, 64, 0.4862745098);
+  --gray-50: rgb(126, 120, 120);
+  --primary-linear-gradient: linear-gradient(90deg, rgb(245, 10, 69) 0%, rgb(0, 128, 255) 100%);
+}
+
+.dashboard .box {
+  width: 100%;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 12px;
+}
+.dashboard .box__content {
+  border-left: 3px solid var(--primary);
+}
+.dashboard .box__title {
+  margin-left: 10px;
+}
+.dashboard .box__output {
+  margin-left: 10px;
+}

@@ -1,0 +1,99 @@
+:root {
+  --primary: #e7295d;
+  --primary-hover: #d71549;
+  --secondary: #0080ff;
+  --secondary-hover: #046ad0;
+  --text: #f8f8f8;
+  --text-dark: #2D2E30;
+  --gray: #d8d7d7;
+  --black: #333333;
+  --background-page: #242424;
+  --alternate-black: #141c2c;
+  --white: #fff;
+  --white-50: #f8f9fa;
+  --primary-50: rgba(245, 10, 69, 0.1607843137);
+  --secondary-50: rgba(0, 128, 255, 0.2666666667);
+  --black-20: rgba(64, 64, 64, 0.4862745098);
+  --gray-50: rgb(126, 120, 120);
+  --primary-linear-gradient: linear-gradient(90deg, rgb(245, 10, 69) 0%, rgb(0, 128, 255) 100%);
+}
+
+.app {
+  background-color: #eee;
+}
+.app__header {
+  padding: 20px 0px;
+  height: 20vh;
+}
+.app__header img {
+  width: 200px;
+}
+.app__body {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.app__body h4 {
+  margin: 10px 0px 20px 0px;
+}
+.app__options {
+  list-style-type: none;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(221, 221, 221, 0.5568627451);
+          box-shadow: 0px 1px 2px 1px rgba(221, 221, 221, 0.5568627451);
+}
+.app__options img {
+  width: 40px;
+}
+.app__options li {
+  width: 400px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(221, 221, 221, 0.5176470588);
+          box-shadow: 0px 1px 2px 1px rgba(221, 221, 221, 0.5176470588);
+  padding: 10px;
+  margin: 15px 0px;
+  border-radius: 6px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+.app__options li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+  font-weight: 600;
+}
+.app__options li:hover {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: var(--primary-50);
+}
+.app__options li:hover a {
+  color: var(--primary) !important;
+}
+.app__options li:hover a span {
+  color: var(--primary) !important;
+}

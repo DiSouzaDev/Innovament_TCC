@@ -1,0 +1,75 @@
+@import "../variables";
+@import "../components/toastAlert";
+@import "../components/button";
+@import "../components/input";
+
+.login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #ededed;
+
+	.login-content {
+		width: 30%;
+		position: relative;
+		background-color: var(--white);
+		border-radius: 8px;
+		// overflow: hidden;
+		box-shadow: 0px 1px 2px 1px #b3b3b37d;
+	}
+	.login-body {
+		padding: 20px;
+	}
+
+	.logo-wrapper {
+		padding: 20px 0px 0px 0px;
+		text-align: center;
+		img {
+			width: 200px;
+		}
+	}
+	// .login-content {
+	// 	width: 30%;
+	// 	position: relative;
+	// }
+
+	form {
+		border-radius: 10px;
+	}
+}
+
+.c-input:has(.error i) .c-input__entry {
+	// background-color: #ff4a4a55;
+	border: 1px solid #af1717;
+	outline: 3px solid #ff676763;
+	position: relative;
+	margin: 0;
+	.error {
+		i {
+			color: #ff4a4a;
+		}
+	}
+	i:hover ~ .login-error {
+		display: block;
+		font-size: 13px;
+	}
+	.login-error {
+		position: absolute;
+		display: none;
+		top: -100%;
+		width: max-content;
+		background-color: #303030;
+		color: #fff;
+		padding: 5px 10px;
+		border-radius: 6px;
+		transform: translateX(-50%);
+	}
+}
+
+
+
+#btn-toggle-password {
+	cursor: pointer;
+}

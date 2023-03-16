@@ -1,0 +1,29 @@
+$system: (
+	"primary": #e7295d,
+	"primary-hover" : #d71549,
+	// "primary": #f50a45,
+	"secondary": #0080ff,
+	"secondary-hover": #046ad0,
+	"text": #f8f8f8,
+	"text-dark": #2D2E30,
+	"gray": #d8d7d7,
+	"black": #333333,
+	"background-page": #242424,
+
+	"alternate-black" : #141c2c,
+
+	// others
+	"white": #fff,
+	"white-50": #f8f9fa,
+	"primary-50": #f50a4529,
+	"secondary-50": #0080ff44,
+	"black-20": #4040407c,
+	"gray-50": rgb(126 120 120),
+	"primary-linear-gradient": linear-gradient(90deg, rgba(245, 10, 69, 1) 0%, rgba(0, 128, 255, 1) 100%)
+);
+
+:root {
+	@each $variable_name, $value in $system {
+		--#{$variable_name}: #{$value};
+	}
+}
