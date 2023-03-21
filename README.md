@@ -27,3 +27,14 @@ A junção dos dois nn na marva representa o slogan da Innovament: Inove Novamen
 <div align="center">
 <img align="center" src="https://user-images.githubusercontent.com/88636833/225505543-8dbb028f-c1b6-4c3a-8b06-662dfcf095ae.png" />
 </div>
+
+Nessa página o usuário poderá fazer o login para poder acessar o nosso site, os campos básicos de preenchimento que essa tela contém são e-mail e senha, clientes que possuem contas criadas conseguirão avançar para a próxima tela. Caso não tiver uma conta, poderá ser redirecionado para efetuar o cadastramento. 
+
+Nessa página o cliente poderá visualizar os produtos em desenvolvimento e os disponíveis para compra, terá a opção de visualizar e decidir o que ele prefere comprar podendo visualizar os detalhes do produto, como por exemplo, o preço, detalhes do pedido.
+
+Para mais informações verificar a documentação do projeto [clicando aqui](https://github.com/Diogo-Javax888/Innovament_TCC/blob/main/documenta%C3%A7%C3%A3oEtecSebrae.pdf).
+
+# Finalização
+Agradeço a todos os meus colegas de grupo que mostraram dedicação e empenho para entregar o melhor projeto que podiamos nesses seis meses, nossa dedicação valeu a pena e conseguimos entregar um ótimo projeto.
+
+E para você que leu até aqui, este repositório a aplicações web acima bem como as documentações do nosso projeto, fique à vontade para revisar e navegar nas aplicações.
