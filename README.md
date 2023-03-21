@@ -28,6 +28,7 @@ A junção dos dois nn na marva representa o slogan da Innovament: Inove Novamen
 <img align="center" src="https://user-images.githubusercontent.com/88636833/225505543-8dbb028f-c1b6-4c3a-8b06-662dfcf095ae.png" />
 </div>
 
+## Explicações
 Nessa página o usuário poderá fazer o login para poder acessar o nosso site, os campos básicos de preenchimento que essa tela contém são e-mail e senha, clientes que possuem contas criadas conseguirão avançar para a próxima tela. Caso não tiver uma conta, poderá ser redirecionado para efetuar o cadastramento. 
 
 Nessa página o cliente poderá visualizar os produtos em desenvolvimento e os disponíveis para compra, terá a opção de visualizar e decidir o que ele prefere comprar podendo visualizar os detalhes do produto, como por exemplo, o preço, detalhes do pedido.
